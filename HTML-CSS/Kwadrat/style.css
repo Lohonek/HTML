@@ -1,0 +1,58 @@
+body {
+  transform: rotate(45deg);
+}
+
+.c1 {
+  width: 600px;
+  height: 600px;
+  background-color: red;
+  position: absolute;
+  left: 700px;
+}
+
+.c2 {
+  width: 500px;
+  height: 500px;
+  background-color: purple;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+.c3 {
+  width: 400px;
+  height: 400px;
+  background-color: saddlebrown;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+.c4 {
+  width: 300px;
+  height: 300px;
+  background-color: blue;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+.c5 {
+  width: 200px;
+  height: 200px;
+  background-color: crimson;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+.c6 {
+  width: 100px;
+  height: 100px;
+  background-color: darkgreen;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+div {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
