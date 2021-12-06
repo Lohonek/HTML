@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-color: grey;
+  color: #fff;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+#box {
+  margin: auto;
+  width: 75%;
+}
+
+#logo {
+  background-color: darkgray;
+  width: 100%;
+  height: 100px;
+}
+
+#content {
+  background-color: ghostwhite;
+  color: #000;
+  height: 800px;
+}
