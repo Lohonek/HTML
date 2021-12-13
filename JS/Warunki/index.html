@@ -5,20 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Strona</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="app.js"></script>
+    <script>
+      var kolor = prompt("Podaj kolor: 1-zielony lub 2-czerwony");
+      if ((kolor == 1) | (kolor == "zielony")) {
+        document.write("<font color=green>zielony</font>");
+      } else if ((kolor == 2) | (kolor == "czerwony")) {
+        document.write("<font color=red>czerwony</font>");
+      } else {
+        document.write("Podałeś nieprawidłową wartość !");
+      }
+    </script>
   </head>
-  <body>
-    <div id="box">
-      <div id="logo">Logo</div>
-      <div id="menu">
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-      </div>
-      <div id="content">Tresc strony</div>
-    </div>
-    <div id="fotter">Stopka</div>
-  </body>
+  <body></body>
 </html>
