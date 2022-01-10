@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   background-color: gainsboro;
+  
 }
 
 .bg {
@@ -11,7 +12,6 @@
 .container {
   border: 2px solid black;
   display: block;
-
   width: 60%;
   margin-left: auto;
   margin-right: auto;
@@ -21,16 +21,16 @@ header {
   text-align: center;
   font-size: 38px;
   font-weight: bold;
+
 }
 
 h1 {
   width: 100%;
-  background-color: #432;
+  background-color: #4b7d9a;
 }
 
 .firstRow {
-  background-color: white;
-  border-top: 2px solid white;
+  background-color: white;  
   display: flex;
   width: 100%;
   height: 550px;
@@ -57,15 +57,10 @@ li {
 img {
   width: 100px;
   height: 100px;
-  display: block;
   text-align: left;
+  float: left;
 }
 
-/* .imgbox {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-} */
 
 .imgleft {
   float: left;
@@ -82,17 +77,16 @@ img {
 }
 
 img#galeria {
-  width: 200px;
-  height: 170px;
-  display: block;
+  width: 160px;
+  height: 200x;
   text-align: left;
   margin-left: auto;
   margin-right: auto;
 }
 
 img#galeria2 {
-  width: 200px;
-  height: 230px;
+  width: 160px;
+  height: 190px;
   display: block;
   text-align: left;
   margin-left: auto;
