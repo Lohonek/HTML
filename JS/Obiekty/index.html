@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obiekty</title>
+</head>
+<body>
+    <script>
+    function szpital (lekarz, specjalizacja, pacjent) {
+    this.lekarz=lekarz;
+    this.specjalizacja=specjalizacja;
+    this.pacjent=pacjent;
+    }
+
+    function osoba (imie, nazwisko) {
+        this.imie=imie;
+        this.nazwisko=nazwisko;
+    }
+
+    pacjent = new osoba("Jan", "Kowalski");
+    oddzial = new szpital("P.Nowak", "Neurolog", pacjent);
+    document.write("<b> Lekarz: <b>" +oddzial.lekarz+"<br>");
+    document.write("<b> Specjalizacja: <b>" +oddzial.specjalizacja+"<br>");
+    document.write("<b> pacjent: <b>" +oddzial.pacjent.imie + " "+ oddzial.pacjent.nazwisko);
+    </script>
+</body>
+</html>
