@@ -43,3 +43,17 @@
 .number7{
     border-bottom: 2px solid black;
 }
+
+.lcenter{
+    display: flex;
+    height: 330px;
+}
+
+.lleft{
+    border-right: 2px solid black;
+}
+
+.lleft, .right{
+    width: 50%;
+    bor
+}
