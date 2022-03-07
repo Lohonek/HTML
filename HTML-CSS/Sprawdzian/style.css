@@ -28,10 +28,18 @@
 }
 
 .number2, .number3{
-    height: 125px;
+    height: 175px;
     border-bottom: 2px solid black;
+}
+
+.number3{
+    border: none;
 }
 
 .number5{
     border-top: 2px solid black;
+}
+
+.number7{
+    border-bottom: 2px solid black;
 }
