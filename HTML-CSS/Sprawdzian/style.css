@@ -6,10 +6,28 @@
 
 .box{
     margin: 30px 15px;
-    padding: 150px;
     border: 2px solid black;
+    width: 400px;
+    height: 400px;
 }
 
 .number1{
+    border-bottom: 2px solid black;
+}
+
+.content{
+    display: flex;
+}
+.left{
+    width: 50%;
+}
+
+.right{
+    border-left: 2px solid black;
+    width: 50%;
+}
+
+.number2, .number3{
+    height: 125px;
     border-bottom: 2px solid black;
 }
