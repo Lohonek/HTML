@@ -15,16 +15,11 @@ h1 {
 }
 
 #firstinput,
-#secondinput,
-#wynikinput {
+#secondinput {
   margin: 10px 0px;
   text-align: center;
 }
 
 button {
   padding: 0px 5px;
-}
-
-#wynik {
-  margin-bottom: 15px;
 }
