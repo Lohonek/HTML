@@ -1,0 +1,3 @@
+function druk(){
+    window.print();
+} 

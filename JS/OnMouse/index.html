@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="duze">duze</p>
+    <p id="male">male</p>
+    <p id="red">czerwone</p>
+
+    <script>
+        let size = 53;
+
+
+        document.getElementById("red").addEventListener("mouseover", mouseOver);
+        document.getElementById("red").addEventListener("mouseout", mouseOut);
+        
+        function mouseOver() {
+          document.getElementById("red").style.color = "red";
+        }
+        
+        function mouseOut() {
+          document.getElementById("red").style.color = "black";
+        }
+
+        document.getElementById("male").addEventListener("mouseover", mouseOverone);
+        document.getElementById("male").addEventListener("mouseout", mouseOutone);
+        
+        function mouseOverone() {
+          document.getElementById("male").style.fontSize = "small";
+        }
+        
+        function mouseOutone() {
+          document.getElementById("male").style.fontSize = "large";
+        }
+
+
+
+    </script>
+</body>
+</html>
