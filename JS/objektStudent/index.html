@@ -19,7 +19,12 @@
             doktor: prompt("Podaj doktora") 
         };
 
-        document.getElementById("wynik").innerHTML = pacjent.imie + " <br> " + pacjent.nazwisko + " <br> " + pacjent.wiek + " <br> " + pacjent.choroba + " <br> " + pacjent.doktor;
+        document.getElementById("wynik").innerHTML =
+        "Imie = " + pacjent.imie + " <br> " + 
+        "Nazwisko = " +pacjent.nazwisko + " <br> " + 
+        "Wiek = " + pacjent.wiek + " <br> " + 
+        "Choroba = " + pacjent.choroba + " <br> " + 
+        "Doktor = " + pacjent.doktor;
     </script>
 </body>
 </html>
