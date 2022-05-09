@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 id="wynik"></h1>
+
+    <script>
+        var pacjent = {
+            imie: prompt("Podaj imie"),
+            nazwisko: prompt("Podaj nazwiko"),
+            wiek: prompt("Podaj wiek"),
+            choroba: prompt("Podaj chorobe"),
+            doktor: prompt("Podaj doktora") 
+        };
+
+        document.getElementById("wynik").innerHTML = pacjent.imie + " <br> " + pacjent.nazwisko + " <br> " + pacjent.wiek + " <br> " + pacjent.choroba + " <br> " + pacjent.doktor;
+    </script>
+</body>
+</html>
