@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: cyan;
+}
+
+
+.content{
+    display: flex;
+    background-color: palegreen;
+}
+
+
+.header{
+    min-width: 100%;
+    text-align: center;
+    background-color: yellow;
+    gap: 50px;
+    min-height: 200px;
+}
+
+
+.left{
+    min-width: 40%;
+    min-height: 500px;
+    border: 2px solid black;
+
+}
+
+
+
+.right{
+    min-width: 60%;
+    min-height: 500px;
+    border: 2px solid black;
+}
+
+img{
+    height: 200px;
+    width: 100%;
+}
