@@ -36,7 +36,9 @@ body{
 .right{
     min-width: 60%;
     min-height: 500px;
-    border: 2px solid black;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
 }
 
 img{
@@ -47,6 +49,6 @@ img{
 
 .mat{
     position: absolute;
-    left: 850px;
+    left: 50%;
     top: 100px;
 }
