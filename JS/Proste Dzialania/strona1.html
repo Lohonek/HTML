@@ -1,41 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=c, initial-scale=1.0" />
-    <title>Kalkulator</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
 
-  <body>
-    <div class="box">
-      <section>
-        <h1>PROSTE DZIAŁANIA</h1>
-      </section>
-      <div id="firstinput">
-        Podaj pierwszą liczbę:
-        <input type="text" id="n1" />
-      </div>
-      <div id="secondinput">
-        Podaj drugą liczbę:
-        <input type="text" id="n2" />
-      </div>
-      <div id="buttons">
-        <button id="dodawanie" value="+" onclick="dodawanie();">
-          Dodawanie
-        </button>
-        <button id="odejmowanie" value="-" onclick="odejmowanie();">
-          Odejmowanie
-        </button>
-        <button id="mnozenie" value="*" onclick="mnozenie();">Mnożenie</button>
-        <button id="dzielenie" value="/" onclick="dzielenie();">
-          Dzielenie
-        </button>
-      </div>
-      <p id="wynik"></p>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=c, initial-scale=1.0" />
+  <title>Kalkulator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="box">
+    <div id="firstinput">
+      Podaj pierwszy bok:
+      <input type="text" id="n1" />
     </div>
-    <script src="app.js"></script>
-  </body>
-</html>
+    <div id="secondinput">
+      Podaj drugi bok:
+      <input type="text" id="n2" />
+    </div>
+    <div id="buttons">
+      <button id="dodawanie" value="+" onclick="obwod();">
+        Oblicz Pole
+      </button>
+    </div>
+    <p id="wynik"></p>
+  </div>
+  <script src="app.js"></script>
+</body>
 
+</html>
