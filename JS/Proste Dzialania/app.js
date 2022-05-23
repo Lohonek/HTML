@@ -23,7 +23,7 @@ function obwod() {
   ) {
     document.getElementById("wynik").innerHTML = 'Prosze uzupelnic dwie liczby'
   } else {
-    var n3 = (n1 + n1 + n2 + n2)
+    var n3 = (2 * n1 + 2 * n2)
     document.getElementById("wynik").innerHTML = 'Obwód wynosi: ' + n3;
   }
 }
